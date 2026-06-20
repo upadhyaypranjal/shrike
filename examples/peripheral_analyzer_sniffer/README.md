@@ -257,6 +257,7 @@ PROTOCOL DETECTED : SPI
 ```
 
 The GUI automatically groups protocol events into transactions, displays decoded protocol fields, and provides real-time monitoring of UART, I²C, and SPI communication activity.
+
 A complete demonstration of the Peripheral Analyzer Sniffer is available here: https://drive.google.com/file/d/1y2rRx6_K9lpKxCzvhh-JszVfDGp5awD3/view?usp=sharing
 
 ## Future Improvements
