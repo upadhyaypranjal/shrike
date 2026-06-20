@@ -29,20 +29,6 @@ The following diagram illustrates the complete data flow of the Peripheral Analy
 
 The ESP8266 is used as a traffic generator during validation. UART, I²C, and SPI signals are monitored by the ForgeFPGA on the Shrike Lite board, decoded in hardware, buffered in FIFO memory, transferred to the RP2040 through SPI, and finally displayed on the host PC through the USB serial interface and Host GUI.
 
-## Demo Video
-
-A complete demonstration of the Peripheral Analyzer Sniffer is available here:
-
-https://drive.google.com/file/d/1y2rRx6_K9lpKxCzvhh-JszVfDGp5awD3/view?usp=sharing
-
-The demo showcases:
-
-- UART protocol decoding
-- I²C protocol decoding
-- SPI protocol decoding
-- FPGA-to-RP2040 communication
-- Real-time monitoring using the PyQt6 Host GUI
-
 ## Compatibility
 
 | Board | Firmware | Status |
@@ -285,6 +271,7 @@ PROTOCOL DETECTED : SPI
 ```
 
 The GUI automatically groups protocol events into transactions, displays decoded protocol fields, and provides real-time monitoring of UART, I²C, and SPI communication activity.
+A complete demonstration of the Peripheral Analyzer Sniffer is available here: https://drive.google.com/file/d/1y2rRx6_K9lpKxCzvhh-JszVfDGp5awD3/view?usp=sharing
 
 ## Future Improvements
 
