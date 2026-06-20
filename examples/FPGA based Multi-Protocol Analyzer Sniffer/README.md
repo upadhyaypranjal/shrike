@@ -1,7 +1,8 @@
 # FPGA based Multi-Protocol Analyzer Sniffer
 
-**Uses MCU:** Yes
-**External Hardware:** ESP8266 (used only as a test traffic generator — not required for normal operation)
+- **Difficulty:** Advanced
+- **Uses MCU:** Yes
+- **External Hardware:** ESP8266 (used only as a test traffic generator — not required for normal operation)
 
 ## Overview
 
@@ -104,13 +105,17 @@ The ESP8266 was used only as a traffic generator for testing. Any device generat
 
 A pre-built Windows GUI executable is provided through the GitHub Releases section for users who wish to monitor protocol activity without running the terminal-based interface.
 
-### Download
+## Download Host GUI
 
-1. Navigate to the Releases section of this repository.
-2. Download the latest release package:
-   - `Executable.zip`
-3. Extract the ZIP archive to any location on your computer.
-4. Launch `main.exe`.
+The standalone Windows GUI is maintained separately.
+
+Download the latest release from:
+
+https://github.com/upadhyaypranjal/Peripheral_Analyzer_Sniffer/releases
+
+Files:
+
+- Executable.zip
 
 ### Connecting to the Analyzer
 
@@ -243,6 +248,7 @@ PROTOCOL DETECTED : SPI
 ```
 
 The GUI automatically groups protocol events into transactions, displays decoded protocol fields, and provides real-time monitoring of UART, I²C, and SPI communication activity.
+For a video demonstration, follow this link: https://drive.google.com/file/d/1y2rRx6_K9lpKxCzvhh-JszVfDGp5awD3/view?usp=sharing
 
 ## Future Improvements
 
