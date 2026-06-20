@@ -1,8 +1,8 @@
 # Peripheral Analyzer Sniffer
 
-**Difficulty:** Advanced
-**Uses MCU:** Yes
-**External Hardware:** ESP8266 (used only as a test traffic generator — not required for normal operation)
+- **Difficulty:** Advanced
+- **Uses MCU:** Yes
+- **External Hardware:** ESP8266 (used only as a test traffic generator — not required for normal operation)
 
 ## Overview
 
