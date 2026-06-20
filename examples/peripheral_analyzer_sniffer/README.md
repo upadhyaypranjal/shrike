@@ -144,20 +144,6 @@ After a successful connection:
 2. Decoded packets will appear automatically in the GUI.
 3. Protocol events are categorized and displayed in real time.
 
-### GUI Examples
-
-<p align="center">
-  <img src="images/gui_uart.png" alt="UART decoding in the Host GUI" width="900">
-</p>
-
-<p align="center">
-  <img src="images/gui_i2c.png" alt="I2C decoding in the Host GUI" width="900">
-</p>
-
-<p align="center">
-  <img src="images/gui_spi.png" alt="SPI decoding in the Host GUI" width="900">
-</p>
-
 ### Alternative: Thonny Shell Monitoring
 
 Although the recommended interface is the PyQt6 Host GUI, decoded protocol packets can also be monitored directly through the Thonny Shell.
